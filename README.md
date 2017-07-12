@@ -1,4 +1,4 @@
-# freemail-webpack
+# Freemail-Webpack
 
 This is a webpack compatible version of [freemail](https://github.com/willwhite/freemail)
 
@@ -11,3 +11,5 @@ email domains and a handy Webpack module for querying it.
 ```
 npm install --save freemail
 ```
+=======
+# Freemail-Webpack
