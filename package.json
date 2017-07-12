@@ -1,0 +1,29 @@
+{
+  "name": "freemail-webpack",
+  "version": "1.0.0",
+  "description": "A webpack compatible version of Freemail (willwhite/freemail)",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egyptik/Freemail-Webpack.git"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  },
+  "keywords": [
+    "freemail",
+    "webpack"
+  ],
+  "dependencies": {
+    "tldjs": "^1.5.2"
+  },
+  "author": "Jerre Baumeister <jerre@snitcher.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egyptik/Freemail-Webpack/issues"
+  },
+  "homepage": "https://github.com/egyptik/Freemail-Webpack#readme"
+}
