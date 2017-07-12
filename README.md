@@ -9,7 +9,19 @@ email domains and a handy Webpack module for querying it.
 ### Install
 
 ```
-npm install --save freemail
+npm install --save freemail-webpack
 ```
-=======
-# Freemail-Webpack
+
+```javascript
+import freemail from 'freemail-webpack';
+
+freemail.isFree('smith@gmail.com');
+> true
+freemail.isFree('jack@mailinator.com');
+> true
+freemail.isDisposable('smith@gmail.com');
+> false
+freemail.isDisposable('jack@mailinator.com');
+> true
+
+```
